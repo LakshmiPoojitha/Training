@@ -1,0 +1,25 @@
+﻿    .table{
+            width: 1000px;
+            border: 1px solid green;
+            border-radius: 20px;            
+            border-collapse: collapse;
+            overflow: hidden;       
+          }
+      
+    .table thead{
+            background-color: skyblue;
+            border-bottom: 1px solid green;
+            border-top: 1px solid green;
+            color: white;
+          }
+   
+       .table th {
+            padding: 10px;
+          }
+        
+        .table td{
+              padding: 10px;
+              border-bottom: 1px solid green;
+              background-color: lightcyan;
+           }
+       
