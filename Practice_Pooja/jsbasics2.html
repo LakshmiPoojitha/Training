@@ -1,0 +1,26 @@
+﻿
+
+<html>
+<head>
+    <script>
+      function onButtonMouseOver (){
+          document.body.style.background ="red";
+               }
+      
+      function onButtonMouseOut() {
+          document.body.style.background = "green";
+      }
+     
+    </script>
+</head>
+<body>
+
+    <div style="font-size:30px;">
+        Username:<input type="text" />
+        Password:<input type="password" />
+        <br />
+        <button onmouseover="onButtonMouseOver()" onmouseout="onButtonMouseOut()">Login</button>
+    </div>
+
+</body>
+</html>
