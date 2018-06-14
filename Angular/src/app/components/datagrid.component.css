@@ -1,0 +1,25 @@
+.poojitha-datagrid table{
+    background-color: greenyellow;
+    width: 1000px;
+    border: 2px solid green;        
+    border-collapse: collapse;
+    overflow: hidden; 
+    border-radius: 20px;
+}
+
+.poojitha-datagrid th{
+    background-color: rgb(119, 128, 39);
+    border-bottom: 1px solid green;
+    border-top: 1px solid green;
+    color: white;
+  }
+
+.poojitha-datagrid th {
+    padding: 10px;
+  }
+
+.poojitha-datagrid td{
+      padding: 10px;
+      border-bottom: 1px solid green;
+      background-color: lightcyan;
+   }
